@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='simpleRoom'>
+    <static>true</static>
+    <link name='Wall_0'>
+      <collision name='Wall_0_Collision'>
+        <geometry>
+          <box>
+            <size>5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.25 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://simpleRoom/materials/scripts</uri>
+            <uri>model://simpleRoom/materials/textures</uri>
+            <name>aruco_wall0000</name>
+          </script>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>1 1 1 1</emissive>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>0 -2.1275 0 0 -0 3.14159</pose>
+    </link>
+
+  </model>
+</sdf>

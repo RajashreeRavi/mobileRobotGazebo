@@ -1,0 +1,15 @@
+material aruco_wall0002
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/arucoMarker_0002.png
+        // Repeat the texture over the surface (4 per face)
+      }
+    }
+  }
+}
+		
